@@ -1,16 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .myDiv{
     text-align: center;
-    background-color: crimson;
-    background-image: linear-gradient(blue, purple, green);
+    background-image: linear-gradient(#1abc9c, rgb(30, 83, 126), rgb(10, 46, 146));
+    border-style: double;
 }
 
 h1{
+    border-radius: 25px;
+    border-style:double;
+    padding: 60px;
     text-align: center;
-    background-image: linear-gradient(blue, purple, green);
-    border-style: ridge;
+    background: #1abc9c;
+    color: black;
+    font-size: 30px;
+    
 }
 
 i.myDiv img{
     height: 200;
     width: 200;
 }
+
+h2{
+    border-radius: 15px 50px 30px;
+    border-style:double;
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+
