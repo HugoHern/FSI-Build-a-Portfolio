@@ -7,8 +7,9 @@
 
 .myDiv{
     text-align: center;
-    background-image: linear-gradient(#1abc9c, rgb(30, 83, 126), rgb(10, 46, 146));
+    background-image: linear-gradient(#1abc9c, rgb(30, 83, 126), rgb(32, 63, 148));
     border-style: double;
+    color: whitesmoke;
 }
 
 h1{
@@ -17,14 +18,14 @@ h1{
     padding: 60px;
     text-align: center;
     background: #1abc9c;
-    color: black;
+    color: whitesmoke;
     font-size: 30px;
     
 }
 
-i.myDiv img{
-    height: 200;
-    width: 200;
+img{
+    height: 135px;
+    width: 150px;
 }
 
 h2{
@@ -33,10 +34,25 @@ h2{
     padding: 20px;
     text-align: center;
     background: #1abc9c;
-    color: black;
+    color: whitesmoke;
     font-size: 20px;
 
 }
+
+p{
+    font-size: 175%;
+}
+
+p#paragraph{
+    background-color: rgba(236, 240, 241, 0.2);
+    border-radius: 25px;
+    border-style: double;
+}
+
+a{
+    color: whitesmoke;
+}
+
 
 
 
